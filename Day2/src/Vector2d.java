@@ -18,8 +18,8 @@ public class Vector2d extends AbstractVector{
     @Override
     public void get_sum(AbstractVector abstractVector) {
             Vector2d vector2d_2 = (Vector2d)abstractVector;
-            int sum_x = x + vector2d_2.x;
-            int sum_y = y + vector2d_2.y;
+            int sum_x = this.getX() + vector2d_2.getX();
+            int sum_y = this.getY() + vector2d_2.getY();
             System.out.println("The sum of two Vector2d is " + sum_x + ";" + sum_y);
     }
 
