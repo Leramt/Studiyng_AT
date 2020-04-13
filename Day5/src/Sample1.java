@@ -1,9 +1,12 @@
+import org.testng.annotations.Test;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 public class Sample1 {
-    public static void main(String[] args) {
+    @Test
+    public void sample1_test(String[] args) {
 
         WebDriver chromeDriver = new ChromeDriver();
         WebDriver safariDriver = new SafariDriver();
